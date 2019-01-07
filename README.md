@@ -5,7 +5,7 @@ We are not using this repo anymore, and we lack the manpower and the experience 
 
 # Cordova Hot Code Push Plugin CLI client
 
-This is a command line utility for [Cordova Hot Code Push Plugin](https://github.com/nordnet/cordova-hot-code-push). It will help you with development and deploy changes to your Cordova application via hot code push, without the need to submit your changes to the Apple App Store or Google Play.
+This is a command line utility for [Cordova Hot Code Push Plugin](https://github.com/AlertTech-INC/cordova-hot-code-push). It will help you with development and deploy changes to your Cordova application via hot code push, without the need to submit your changes to the Apple App Store or Google Play.
 
 Main features are:
 - Automatically generate configuration files, required for Hot Code Push plugin (`chcp.json` and `chcp.manifest`).
@@ -36,7 +36,7 @@ npm install -g cordova-hot-code-push-cli
 
 It is also possible to install via repo url directly (__unstable__):
 ```sh
-npm install -g https://github.com/nordnet/cordova-hot-code-push-cli.git
+npm install -g https://github.com/AlertTech-INC/cordova-hot-code-push-cli.git
 ```
 
 ### How to use
@@ -139,7 +139,7 @@ Build 2015.09.07-11.20.55 created in /Cordova/TestProject/www
 
 As a result, `chcp.json` and `chcp.manifest` files are generated in the `www` folder and project is ready for deployment.
 
-More information about those configs can be found on [Cordova Hot Code Push plugin](https://github.com/nordnet/cordova-hot-code-push) documentation page.
+More information about those configs can be found on [Cordova Hot Code Push plugin](https://github.com/AlertTech-INC/cordova-hot-code-push) documentation page.
 
 #### Server command
 
